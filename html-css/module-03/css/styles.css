@@ -1,0 +1,115 @@
+body {
+    font-family: "Playfair Display", "Arial", serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;    
+}
+
+.container {
+    width: 900px;
+    outline: 1px solid red;
+    margin: 0 auto;
+    padding-top: 76px;
+    padding-bottom: 76px;
+}
+
+.navigation-header {
+    margin-bottom: 102px;
+}
+
+.site-navigation {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    list-style: none;
+    text-align: center;
+}
+
+
+.site-navigation li {
+   display: inline-block;
+   margin-right: 120px;
+}
+
+.site-navigation li:last-child {
+    margin-right: 0px;
+ }
+
+.site-navigation a {
+    color: #626262;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 17px;
+}
+
+.site-navigation a:hover {
+    color: #fff;
+    background: #008;
+}
+
+.life-list {
+    margin: 0 0 26px;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.life-list li {
+    width: 420px;
+    outline: 1px solid blue;
+    display: inline-block;
+    margin-right: 60px;
+    margin-bottom: 135px;    
+}
+
+.life-list li:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+} 
+
+.life-list li:nth-child(2n) {
+    margin-right: 0;
+}
+.life-list-style {
+    margin: 0;
+    font-size: 14px;
+    line-height: 17px;
+    color: #b4ad9e;
+}
+
+.life-list-designation {
+    font-size: 30px;
+    line-height: 36px;
+    color: #626262;
+}
+
+.life-list-about {
+    font-size: 14px;
+}
+
+.load-more-btn {
+    font-size: 20px;
+    border: 1px solid #626262;
+    display: block;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 26px 36px;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
