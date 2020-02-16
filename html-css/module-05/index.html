@@ -2,168 +2,133 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
     <title>homework-05</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto:300,400,700,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <div class="navigation">
-        <header class="page-header">
+    <h1 class="visually-hidden">Mart</h1>
+    <header class="header">
+        <div class="container">
             <nav class="clearfix">
-                <a class="logo">MART</a>
-                <ul class="menu clearfix">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT US</a></li>
-                    <li><a href="#">PAGE</a></li>
-                    <li><a href="#">SHOP</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">CONTACT US</a></li>
+                <a class="logo" href="#">Mart</a>
+                <ul class="navigation clearfix">
+                    <li><a href="#" class="menu">Home</a></li>
+                    <li><a href="#" class="menu">About us</a></li>
+                    <li><a href="#" class="menu">Page</a></li>
+                    <li><a href="#" class="menu">Shop</a></li>
+                    <li><a href="#" class="menu">Blog</a></li>
+                    <li><a href="#" class="menu">Contact us</a></li>
                 </ul>
             </nav>
-        </header>
-    </div>
-
+        </div>
+    </header>
     <main>
-
-        <section class="slider-section">
-            <div class="slider">
-                <ul class="slides">
-                    <li class="slides-item">
-                        <img class="slides-image" src="./img/bg.jpg" alt="image slider" width="1600" height="600">
-                        <div class="slides-caption">
-                            <h1 class="header-title">Affordable paris tours</h2>
-                            <p class="header-description">City tours / tour tickets / tour guides</p>
-                    </li>
-                </ul>
-                <div class="slider-arrows">
-                    <button class="slider-ctrl slider-arrow-prew"></button>
-                    <button class="slider-ctrl slider-arrow-next"></button>
+        <div class="slider">
+            <img class="slide-image" src="./img/slide4.jpg" alt="slider" width="1600" height="600">
+                <div class="slide-text">
+                    <h2>Affordable Paris tours</h2>
+                    <h4>City tours/tour tickets/tour guides</h4>
                 </div>
+            <div class="container slider-buttons">
+                <button class="slider-ctrl slider-ctrl-left"></button>
+                <button class="slider-ctrl slider-ctrl-right"></button>
             </div>
-            </div>
-        </section>
-
-        <section class="collection">
+        </div>
+        <section class="items">
             <div class="container">
-                <h2 class="section-title">NEW COLLECTION</h2>
-                <ul class="catalog-list clearfix">
-                    <li class="list-item">
-                        <div class="image-link">
-                            <img src="img/1.jpg" alt="list image" class="list-img" width="255" height="282">
+            <h3 class="feature">New collection</h3>
+            <ul class="center">
+                <li class="elements">
+                    <div class="all">
+                        <div class="div-up">
+                            <img src="./img/photo1.png" alt="one" width="255" height="285">
                             <div class="overlay">
-                                <ul class="overlay-list clearfix">
-                                    <li class="overlay-item">
-                                        <button class="overlay-btn like"></button>
-                                    </li>
-                                    <li class="overlay-item">
-                                        <button class="overlay-btn view"></button>
-                                    </li>
-                                    <li class="overlay-item">
-                                        <button class="overlay-btn history"></button>
-                                    </li>
-                                    <li class="overlay-item">
-                                        <button class="overlay-btn add">add to cart</button>
-                                    </li>
-                                </ul>
+                                <div class="buttons-bottom">
+                                    <button class="buttons heart"></button>
+                                    <button class="buttons arrow"></button>
+                                    <button class="buttons clock"></button>
+                                    <button class="add">Add to cart</button>
+                                </div>
                             </div>
                         </div>
-                        <div class="clearfix">
-                            <div class="list-name">Blue tshirt</div>
-                            <div class="list-price">$26</div>
+                        <div class="div-bottom clearfix">
+                            <h3 class="product-name"><a class="name" href="#">Blue tshirt</a></h3>
+                            <span class="price">$26</span>
                         </div>
-                    </li>
-                    <li class="list-item">
-                        <div class="image-link">
-                            <img src="img/2.jpg" alt="list image" class="list-img" width="255" height="282">
+                    </div>
+                </li>
+                <li class="elements">
+                    <div class="all">
+                        <div class="div-up">
+                            <img src="./img/photo2.png" alt="two" width="255" height="285">
                             <div class="overlay">
-                                <ul class="overlay-list clearfix">
-                                    <li class="overlay-item">
-                                        <button class="overlay-btn like"></button>
-                                    </li>
-                                    <li class="overlay-item">
-                                        <button class="overlay-btn view"></button>
-                                    </li>
-                                    <li class="overlay-item">
-                                        <button class="overlay-btn history"></button>
-                                    </li>
-                                    <li class="overlay-item">
-                                        <button class="overlay-btn add">add to cart</button>
-                                    </li>
-                                </ul>
+                                <div class="buttons-bottom">
+                                    <button class="buttons heart"></button>
+                                    <button class="buttons arrow"></button>
+                                    <button class="buttons clock"></button>
+                                    <button class="add">Add to cart</button>
+                                </div>
                             </div>
                         </div>
-                        <div class="clearfix">
-                            <div class="list-name">Woman shirt</div>
-                            <div class="list-price">$31</div>
+                        <div class="div-bottom clearfix">
+                            <h3 class="product-name"> <a class="name" href="#">Woman shirt</a></h3>
+                            <span class="price">$31</span>
                         </div>
-                    </li>
-                    <li class="list-item">
-                        <div class="image-link">
-                            <img src="img/3.jpg" alt="list image" class="list-img" width="255" height="282">
+                    </div>
+                </li>
+                <li class="elements">
+                    <div class="all">
+                        <div class="div-up">
+                            <img src="./img/photo3.png" alt="three" width="255" height="285">
                             <div class="overlay">
-                                <ul class="overlay-list clearfix">
-                                    <li class="overlay-item">
-                                        <button class="overlay-btn like"></button>
-                                    </li>
-                                    <li class="overlay-item">
-                                        <button class="overlay-btn view"></button>
-                                    </li>
-                                    <li class="overlay-item">
-                                        <button class="overlay-btn history"></button>
-                                    </li>
-                                    <li class="overlay-item">
-                                        <button class="overlay-btn add">add to cart</button>
-                                    </li>
-                                </ul>
+                                <div class="buttons-bottom">
+                                    <button class="buttons heart"></button>
+                                    <button class="buttons arrow"></button>
+                                    <button class="buttons clock"></button>
+                                    <button class="add">Add to cart</button>
+                                </div>
                             </div>
                         </div>
-                        <div class="clearfix">
-                            <div class="list-name">Yellow tshirt</div>
-                            <div class="list-price">$21</div>
+                        <div class="div-bottom clearfix">
+                            <h3 class="product-name"><a class="name" href="#">Yellow tshirt</a></h3>
+                            <span class="price">$21</span>
                         </div>
-                    </li>
-                    <li class="list-item">
-                        <div class="image-link">
-                            <img src="img/4.jpg" alt="list image" class="list-img" width="255" height="282">
+                    </div>
+                </li>
+                <li class="elements">
+                    <div class="all">
+                        <div class="div-up">
+                            <img src="./img/photo4.png" alt="four" width="255" height="285">
                             <div class="overlay">
-                                <ul class="overlay-list clearfix">
-                                    <li class="overlay-item">
-                                        <button class="overlay-btn like"></button>
-                                    </li>
-                                    <li class="overlay-item">
-                                        <button class="overlay-btn view"></button>
-                                    </li>
-                                    <li class="overlay-item">
-                                        <button class="overlay-btn history"></button>
-                                    </li>
-                                    <li class="overlay-item">
-                                        <button class="overlay-btn add">add to cart</button>
-                                    </li>
-                                </ul>
+                                <div class="buttons-bottom">
+                                    <button class="buttons heart"></button>
+                                    <button class="buttons arrow"></button>
+                                    <button class="buttons clock"></button>
+                                    <button class="add">Add to cart</button>
+                                </div>
                             </div>
                         </div>
-                        <div class="clearfix">
-                            <div class="list-name">Cool lingerie</div>
-                            <div class="list-price">$56</div>
+                        <div class="div-bottom clearfix">
+                            <h3 class="product-name"><a class="name" href="#">Cool lingerie</a></h3>
+                            <span class="price">$56</span>
                         </div>
-                    </li>
-                </ul>
-            </div>
+                    </div>
+                </li>
+            </ul>
+       
+        </div>
         </section>
-
-    <footer>
-        <div class="copyright">All Rights Reserved © Dokan | Designed <span class="color-text">ThemenGraph</span></div>
-    </footer>  
-    
     </main>
-
+    <footer class="footer-color footer-bottom">
+        <div class="container">
+            <p class="text-bottom">All Rights Reserved © Dokan | Designed <a href="#">ThemenGraph</a></p>
+        </div>
+    </footer>
 </body>
 
 </html>
-
-
-    
